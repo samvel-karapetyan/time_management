@@ -13,7 +13,7 @@
 #   ցանկությունները իրականացնելու համար
 
 import streamlit as st
-import datetime 
+import datetime # datetime.date
 
 st.title("Բարև, Streamlit!")
 st.write("Սա իմ առաջին Streamlit հավելվածն է")
@@ -22,16 +22,22 @@ st.markdown("""
 - Կետիկով նշումներ
 """)
 
-a = st.date_input("Օր ներմուծիր")
+a = st.date_input("Օր ներմուծիր") # datetime
 
-a = st.checkbox(a.strftime("%d.%m.%Y"))
+print(a)
+st.checkbox(a.strftime("%d.%m.%Y"))
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
-    # bytes_data = uploaded_file.getvalue() # ստանալ բայթերով
+    bytes_data = uploaded_file.getvalue() # ստանալ բայթերով
+
+    print(bytes_data)
+    print(type(bytes_data))
+    with open("example.png", "wb") as f:
+        f.write(bytes_data)
+
     st.image(uploaded_file)
 
 name = st.text_input("Քո անունը:")
 if name:
     st.write(f"Ողջույն, {name}!")
-
