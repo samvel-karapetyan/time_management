@@ -1,0 +1,62 @@
+[
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "Develop a prototype for the app",
+        "done": false,
+        "deadline": "30.03.2025",
+        "time": "17:00"
+    },
+    {
+        "event_type": "\u0540\u0561\u0576\u0564\u056b\u057a\u0578\u0582\u0574",
+        "description": "Weekly team meeting",
+        "done": true,
+        "date": "22.02.2025",
+        "time": "10:00",
+        "location": "Office Room 305",
+        "duration": "01:30"
+    },
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "hasjkhdkashd",
+        "done": false,
+        "deadline": "10.02.2025",
+        "time": "00:45:00"
+    },
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "Prepare slides for presentation",
+        "done": true,
+        "deadline": "05.03.2025",
+        "time": "09:00"
+    },
+    {
+        "event_type": "\u0540\u0561\u0576\u0564\u056b\u057a\u0578\u0582\u0574",
+        "description": "Client discussion",
+        "done": true,
+        "date": "18.02.2025",
+        "time": "15:00",
+        "location": "Zoom",
+        "duration": "00:45"
+    },
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "Complete the project report",
+        "done": true,
+        "deadline": "15.03.2025",
+        "time": "14:00"
+    },
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "Review the team's code",
+        "done": true,
+        "deadline": "20.02.2025",
+        "time": "16:30"
+    },
+    {
+        "event_type": "\u0531\u057c\u0561\u057b\u0561\u0564\u0580\u0561\u0576\u0584",
+        "description": "Read two chapters of a math book",
+        "done": true,
+        "deadline": "25.02.2025",
+        "time": null
+    }
+]
